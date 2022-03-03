@@ -77,12 +77,12 @@ Cấp quyền cho người dùng vừa tạo:
     sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
 Bỏ ghi chú các dòng:
-
-    log_bin = /var/log/mysql/mysql-bin.log
-    server-id = 1
+    
     tmpdir = /tmp
     slow_query_log = 1
-
+    server-id = 1
+    log_bin = /var/log/mysql/mysql-bin.log
+    
 Thay đổi các dòng:
 
     slow_query_log = 2
