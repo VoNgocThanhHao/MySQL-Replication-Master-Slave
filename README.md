@@ -9,8 +9,11 @@
 
 ### 1. Cập nhật và cài đặt MySQL
     apt update
+>    
     apt install mysql-server -y
+>
     systemctl start mysql
+>    
     systemctl enable mysql
 
 ### 2. Cấu hình cho Master
