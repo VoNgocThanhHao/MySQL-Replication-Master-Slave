@@ -1,5 +1,9 @@
 # **Cấu hình MySQL Master-Slave Ubuntu 20.04**
 
+## Mô hình
+
+![](https://i.imgur.com/m5WbB8B.png)
+
 ## Yêu cầu:
 
 - Máy Master: 172.20.23.1
